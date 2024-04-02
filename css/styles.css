@@ -87,6 +87,7 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 24px, 0;
 }
 
 .header-logo .accent {
@@ -136,6 +137,7 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
+  padding: 24px 0;
 }
 
 .address-link:hover,
@@ -155,7 +157,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 48px;
   justify-content: center;
 }
 
@@ -196,7 +197,6 @@ a {
 /* FEATURES */
 
 .features {
-  display: flex;
   padding: 120px 0;
 }
 
@@ -209,12 +209,10 @@ a {
 }
 
 .features-item {
-  display: block;
   width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
-  display: flex;
   margin-bottom: 8px;
 }
 
@@ -229,7 +227,6 @@ a {
 
 .team {
   background-color: #F4F4FD;
-  display: flex;
   padding: 120px 0;
 }
 
@@ -257,7 +254,6 @@ a {
 
 .team-subtitle {
   text-align: center;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -267,7 +263,6 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-bottom: 32px;
 }
 
 .team-text-wrap {
@@ -326,8 +321,6 @@ a {
 
 .footer {
   background-color: #2e2f42;
-  height: 312px;
-  display: flex;
   padding: 100px 0;
 }
 
@@ -341,7 +334,6 @@ a {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
-  margin-right: 76px;
 }
 
 .footer-logo .accent {
